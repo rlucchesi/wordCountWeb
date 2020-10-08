@@ -24,7 +24,7 @@ for line in lineList:
 	if len(line) > 0:
 		wordList = line.split(' ')
 		for word in wordList:
-			if len(word) > 0:
+			if len(word) > 0 and (word[0].isalpha() or word[0].isnumeric()):
 				output += 1
 
 print(output)
