@@ -2,7 +2,7 @@
 # * Author:    Rafael Lucchesi
 # * Created:   2020/10/07
 #
-# Goal: count the number of words on a 'random' website
+# Goal: count the number of words on a hardcoded website
 #
 
 import urllib.request
